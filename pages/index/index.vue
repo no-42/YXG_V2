@@ -1,6 +1,6 @@
 <template>
 	<view :style="logeStyle">
-		<image src="../../static/log.jpg" class="img" mode="center"></image>
+		<image src="../../static/logo.jpg" class="img" mode="center"></image>
 		<view class="text-and-button">
 			<view style="margin-bottom: 50rpx;">
 				<h2 style="color: white;margin-bottom: 100rpx;">欢迎</h2>
@@ -34,9 +34,9 @@
 			},
 			logo() {
 				console.log("登录");
-				// uni.redirectTo({
-				// 	url: "/pages/index/index2"
-				// })
+				uni.navigateTo({
+					url: "/pages/index/logo"
+				})
 			}
 		}
 	};
