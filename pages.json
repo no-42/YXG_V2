@@ -23,15 +23,43 @@
 					"titleNView": false
 				}
 			}
+		},
+		{
+			"path": "pages/index/register",
+			"style": {
+				// 隐藏顶部菜单状态栏
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/verification",
+			"style": {
+				"navigationBarTitleText": "短信验证码"
+			}
+		},
+		{
+			"path": "pages/index/userMain",
+			"style": {
+				// 隐藏顶部菜单状态栏
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 禁用原生导航
+					"titleNView": false
+				}
+			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "YGX",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff",
 		"app-plus": {
-			"background": "#efeff4"
+			"background": "#ffffff"
 		}
 	}
 }

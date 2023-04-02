@@ -22,7 +22,7 @@
 	@import '@/static/customicons.css';
 	// 设置整个项目的背景色
 	page {
-		background-color: #f5f5f5;
+		background-color: #ffffff;
 	}
 
 	/* #endif */
@@ -30,5 +30,8 @@
 		font-size: 14px;
 		color: #333;
 		padding: 10px;
+	}
+	u-button{
+		border-radius: 10px;
 	}
 </style>
